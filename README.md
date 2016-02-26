@@ -14,11 +14,16 @@ Check out [index.html] for a demo.
 
 ## things to note
 
+- This is just a prototype. It's being stored here for later implementation into a Drupal project.
 - This was generated using Bootstrap, but it's basically framework agnostic.
-- It uses Gilmore Davidson's "Jquery Nearest" plugin - http://gilmoreorless.github.io/jquery-nearest/
+- This uses Gilmore Davidson's "Jquery Nearest" plugin - http://gilmoreorless.github.io/jquery-nearest/
+
+## things to do
 
 @todo: Unset vars so this can fire on debounced resize
 
 @todo: On mobile, none of this should happen and everything's inline
 
 @todo: If Javascript is disabled (use Modernizr to detect .js class on HTML element), don't break the floats out
+
+@todo: De-bloat everything
