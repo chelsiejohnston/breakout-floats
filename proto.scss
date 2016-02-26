@@ -1,0 +1,48 @@
+@import 'bootstrap-sass/_bootstrap';
+
+body p { margin: 1.6em 0; }
+
+.container { min-width: 768px - ($grid-gutter-width/2); }
+
+.left {
+	@include make-xs-column(8);	
+	background: lightblue;
+}
+
+.right {
+	@include make-xs-column(4);	
+	background: lightyellow;
+
+	div:not(.floated-right) {		
+		background: lightgray;		
+		margin: 1em;
+		padding: 1em;
+	}
+}
+
+.floated-right {
+	width: 300px;
+	background: violet;	
+	float: right;
+	margin: 0 0 1em 1em;
+	padding: 1em;	
+
+	&.fake {
+		background: violet;
+		float: none;
+		transform: translateX(-50%);
+	}
+}
+
+.has-space {
+	&:before { 
+		float: right; 
+		content: ""; 
+	}
+}
+
+html.js {
+	.floated-right {
+		margin-right: -10%;	
+	}
+}
