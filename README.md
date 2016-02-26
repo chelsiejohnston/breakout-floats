@@ -1,7 +1,7 @@
 # breakout-floats
 A clunky little plugin for breaking pull-quote-style floats out of their containers. WIP.
 
-[Here is a demo:](https://rawgit.com/chelsiejohnston/breakout-floats/master/index.html)
+[**Here is a demo.**](https://rawgit.com/chelsiejohnston/breakout-floats/master/index.html)
 
 ## what's this?
 Let's say you have a two-column layout with some right-floated elements (perhaps pull quotes). You want these right-floated elements to "flow" from the left column into the right, overflowing into the right column to create a visual inset effect. But the elements in the right container don't know the overlapping elements in the left container are there— so they get overlapped or something. Tragic!
